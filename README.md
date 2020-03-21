@@ -15,11 +15,11 @@ This project will help you learn about :
 - Client utilities.
 - Back-end and front-end.
 - The basics of web :
-- - Server
-- - HTML
-- - HTTP
-- - HTTP methods
-- - HTTP status
+  - Server
+  - HTML
+  - HTTP
+  - HTTP methods
+  - HTTP status
 - Ways to receive data
 - Ways to output data
 
