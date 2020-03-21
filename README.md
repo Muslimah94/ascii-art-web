@@ -1,5 +1,6 @@
 # Ascii-Art-Web
 This is my first Web project written in go. It's a web server for outputting the text in a graphic representation of ASCII and dowloading a file with it.
+# execute: go run main.go
 
 Ascii-art-web consists in creating and running a server, in which it will be possible to use a web GUI (graphical user interface) version of a program that outputs text in a graphical representation of ASCII (ascii-art project in my ascii-art repo)
 
