@@ -1,0 +1,32 @@
+{{template "header"}}
+
+<main>
+    <div class="full-screen"></div>
+    <form action="/" class="input-area" method="POST">
+       <textarea name="input" cols="50" rows="8"></textarea>
+    <br> <br>
+        <select name="font" class="cursor">.html
+            <option value="standard">Standard</option>
+            <option value="thinkertoy">Thinkertoy</option>
+            <option value="shadow">Shadow</option>
+        </select>
+    <br> <br>
+        <!-- <select name="docType" class="cursor">.html
+            <option value="pdf">PDF</option>
+            <option value="txt">TXT</option>
+            <option value="doc">WORD</option>
+        </select> -->
+        <input type="radio" id="show" name="process" value="show">
+        <label for="male">Show</label><br>
+        <input type="radio" id="download" name="process" value="download">
+        <label for="female">Download</label><br>
+        <br> <br>
+        <input type="submit" value="Start" class="cursor">
+    </form>
+    
+       
+        <pre>{{.Output}}</pre>
+        
+    </main>
+
+{{template "footer"}}
