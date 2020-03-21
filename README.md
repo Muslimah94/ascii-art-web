@@ -3,7 +3,7 @@ This is my first Web project written in go. It's a web server for outputting the
 
 Ascii-art-web consists in creating and running a server, in which it will be possible to use a web GUI (graphical user interface) version of a program that outputs text in a graphical representation of ASCII (ascii-art project in my ascii-art repo)
 
-Basci requirements:
+Basic requirements:
 - You must use your ascii-art application for this project.
 - You can run your server locally (localhost) or using an API.
 - You must use the different banners for the website.
@@ -15,11 +15,11 @@ This project will help you learn about :
 - Client utilities.
 - Back-end and front-end.
 - The basics of web :
-~ Server
-~ HTML
-~ HTTP
-~ HTTP methods
-~ HTTP status
+- - Server
+- - HTML
+- - HTTP
+- - HTTP methods
+- - HTTP status
 - Ways to receive data
 - Ways to output data
 
