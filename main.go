@@ -33,7 +33,7 @@ func main() {
 	FileServer := http.FileServer(http.Dir("docs"))
 	http.Handle("/docs/", http.StripPrefix("/docs/", FileServer))
 	fmt.Println("Server is listening to port #8080 ... ")
-	http.ListenAndServe(":8080", nil) // When nil, the DefaultServeMux is used
+	log.Fatal(http.ListenAndServe(":8080", nil)) // When nil, the DefaultServeMux is used
 }
 
 // serverHandler is my very first Handler
